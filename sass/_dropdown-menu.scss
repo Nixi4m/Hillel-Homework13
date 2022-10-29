@@ -1,0 +1,150 @@
+nav {
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+
+    li {
+      display: inline-block;
+      background-color: #FFFFFF;
+    }
+  }
+
+  .list-wrapper a {
+    display: block;
+    padding: 15px 13px;
+    color: #4F4F4F;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+  }
+
+  div a:hover {
+    background-color: #3FCF5E;
+    border-radius: 15px;
+  }
+
+  ul {
+    div {
+      display: none;
+      position: absolute;
+      top: 100%;
+    }
+
+    :hover > div {
+      display: block;
+    }
+
+    div {
+      position: absolute;
+    }
+
+    ul li {
+      width: 233px;
+      display: list-item;
+      position: relative;
+    }
+  }
+}
+
+.list-wrapper {
+  display: block;
+  padding: 21px 25px 34px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 15px 30px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  z-index: 2;
+  position: relative;
+}
+
+.list-box {
+  padding-top: 25px;
+}
+
+/* ---------- */
+
+.account-info {
+  ul {
+    list-style: none;
+    position: relative;
+
+    li {
+      margin: 0;
+      display: inline-block;
+      background-color: #FFFFFF;
+    }
+  }
+
+  a {
+    display: block;
+    padding: 15px 0px;
+    color: #4F4F4F;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+  }
+
+  div {
+    a:hover {
+      background-color: #3FCF5E;
+      border-radius: 10px;
+      border: none;
+    }
+
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+  }
+
+  ul {
+    :hover > div {
+      display: block;
+    }
+
+    div {
+      position: absolute;
+    }
+
+    ul li {
+      width: 244px;
+      text-align: center;
+      display: list-item;
+      position: relative;
+      border: 1px solid #BDBDBD;
+      border-radius: 10px;
+    }
+  }
+}
+
+.account-wrapper li:first-child {
+  margin-bottom: 15px;
+}
+
+.dropdown-position {
+  padding: 0;
+  margin: 0;
+}
+
+.account-wrapper {
+  display: block;
+  padding: 25px 20px 35px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 15px 30px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  z-index: 2;
+  position: relative;
+}
+
+.account-box {
+  padding-top: 30px;
+}
